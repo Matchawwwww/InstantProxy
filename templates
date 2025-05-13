@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instantプロキシ</title>
+</head>
+<body>
+    <h1>Instantプロキシ</h1>
+    <form action="/proxy" method="get">
+        <label for="url">アクセスしたいURL:</label>
+        <input type="text" id="url" name="url" size="50">
+        <button type="submit">送信</button>
+    </form>
+</body>
+</html>
